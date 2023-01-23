@@ -27,20 +27,18 @@ public class FightAction implements Actionable {
 
         while (!player.isDead() && !monster.isDead()) {
             assert assaulter != null;
+            System.out.println(assaulter.getName() + " атаковал!");
             if (assaulter.getAgility() * 3 > rand.nextInt(100)) {
                 assaulter.attack(assaulty);
             } else {
                 System.out.println(assaulter.getName() + " промахнулся!");
             }
 
-
-            System.out.println(assaulter.getName() + " атаковал!");
-
             assaulter = assaulter == this.player ? this.monster : this.player;
             assaulty = assaulty == this.player ? this.monster : this.player;
 
-            System.out.println("Остаток жизни " + this.player.getName() + ": " + this.player.healthPoints);
-            System.out.println("Остаток жизни " + this.monster.getName() + ": " + this.monster.healthPoints);
+            System.out.println("Остаток жизни " + this.player.getName() + ": " + Math.max(0, this.player.healthPoints));
+            System.out.println("Остаток жизни " + this.monster.getName() + ": " + Math.max(0, this.monster.healthPoints));
             Thread.sleep(500);
         }
         Person winner = player.isDead() ? monster : player;
@@ -53,6 +51,7 @@ public class FightAction implements Actionable {
 
             System.out.println("Добавлено " + monster.getGold() + " злотых.");
             System.out.println("Всего злотых: " + player.getGold());
+            System.out.println("");
         }
     }
 }

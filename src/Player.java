@@ -1,5 +1,4 @@
 public class Player extends Person {
-    int level = 1;
     public Player(String name, int healthPoints, int strength, int agility, int xp, int gold) {
         super(name, healthPoints, strength, agility, xp, gold);
     }
@@ -12,6 +11,11 @@ public class Player extends Person {
     public void boostXp(Monster monster) {
 
         this.xp += monster.getAgility() + monster.getStrength();
+        if (this.isLevelUpAvailable()) {
+            this.levelUp();
+            System.out.println("Новый уровень: " + level);
+        }
+
     }
 
     public void spendMoney(int cost) {
@@ -22,4 +26,15 @@ public class Player extends Person {
         this.healthPoints = 100;
     }
 
+    public boolean isLevelUpAvailable() {
+        return this.xp > level * 100;
+    }
+
+    public void levelUp() {
+        if (isLevelUpAvailable()) {
+            this.level++;
+            this.strength = this.strength + 3;
+            this.agility = this.agility + 3;
+        }
+    }
 }

@@ -1,11 +1,11 @@
 abstract public class Person {
     protected String name;
     protected int healthPoints = 100;
-    private int strength;
-    private int agility;
+    protected int strength;
+    protected int agility;
     protected int xp;
     protected int gold;
-
+    protected int level;
 
     public Person(String name, int healthPoints, int strength, int agility, int xp, int gold) {
         this.name = name;
@@ -14,8 +14,8 @@ abstract public class Person {
         this.agility = agility;
         this.xp = xp;
         this.gold = gold;
+        this.level = 1;
     }
-
     public void attack(Person person) {
         person.receive(this);
     }
@@ -31,6 +31,7 @@ abstract public class Person {
     public int getAgility() {
         return agility;
     }
+
     public int getGold() {
         return this.gold;
     }
@@ -41,5 +42,9 @@ abstract public class Person {
 
     public String getName() {
         return this.name;
+    }
+
+    public int getLevel() {
+        return this.level;
     }
 }

@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec04c5-7fe0-4073-84c1-2f7ebea0c17a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPG-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actionable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FightAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Goblin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MenuChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NotEnoughMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Skeleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TradeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/World.java" afterDir="false" />
+    <list default="true" id="3aec04c5-7fe0-4073-84c1-2f7ebea0c17a" name="Changes" comment="Gitignore updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FightAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FightAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Panteleymon/IdeaProjects/RPG-project/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Panteleymon/IdeaProjects/RPG-project/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Panteleymon\IdeaProjects\RPG-project\src" />
@@ -87,8 +72,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674291591837</updated>
-      <workItem from="1674291594609" duration="23307000" />
+      <workItem from="1674291594609" duration="24077000" />
+      <workItem from="1674478946416" duration="6887000" />
     </task>
+    <task id="LOCAL-00001" summary="Added basic functionality">
+      <created>1674316847062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674316847062</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Gitignore updated">
+      <created>1674316947655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674316947655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +105,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added basic functionality" />
+    <MESSAGE value="Gitignore updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gitignore updated" />
   </component>
 </project>

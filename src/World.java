@@ -10,7 +10,7 @@ public class World extends Thread {
         out.println("Как тебя зовут?");
         String username = in.nextLine();
         out.println("Привет, " + username);
-        Player player = new Player(username, 100, 10, 10, 0, 50);
+        Player player = new Player(username, 100, 12, 12, 1, 100);
         Seller seller = new Seller(100);
         while (true) {
             out.println("Куда вы хотите пойти?");
